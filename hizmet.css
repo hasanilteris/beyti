@@ -411,9 +411,58 @@
   @media (max-width: 450px) {
     html {
       font-size: 55%;
+      
+    }
+    .team{
+      background-color: white;
+    }
+    .team1{
+      background-color: white;
+    }
+    .team2{
+      background-color: white;
+    }
+    .team .box-container .box{
+      width: 80%;
+    }
+    .team1 .box-container .box{
+      width: 80%;
+    }
+    .team2 .box-container .box{
+      width: 97%;
+    }
+    .team1 .box-container .box .info h3{
+      font-size: 14px;
+    }
+    .team .box-container .box .info h3{
+      font-size: 14px;
+    }
+    .footer .copyright p{
+      font-size: 8px;
     }
   
     .home h1 {
       font-size: 4rem;
+    }
+  }
+  @media (max-width: 420px) {
+    .team .box-container .box{
+      margin-left: 1rem;
+    }
+    .team1 .box-container .box{
+      margin-left: 1rem;
+    }
+    .team2 .box-container .box{
+      width: 99%;
+    }
+  }
+  @media (max-width: 380px) {
+   
+    
+    .team .box-container .box{
+       margin-left: -1rem;
+    }
+    .team1 .box-container .box{
+      margin-left: -1rem;
     }
   }
