@@ -331,6 +331,9 @@
     html {
       font-size: 55%;
     }
+      .about .box-container .box p{
+      font-size: 12px;
+    }
     .about .box-container .box .heading{
       font-size: 20px;
     }
