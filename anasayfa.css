@@ -368,20 +368,20 @@
     margin-top: 1rem;
   }
   
-  .contact .box-container .box input {
+  .contact .box-container .box1 input {
     border: 0.1rem solid white;
     padding: 1rem;
     border-radius: 20px;
     margin-bottom: 1rem;
   }
   
-  .contact .box-container .box textarea {
+  .contact .box-container .box1 textarea {
     border: 0.1rem solid white;
     padding: 1rem;
     border-radius: 20px;
   }
   
-  .contact .box-container .box button {
+  .contact .box-container .box1 button {
     margin-top: 1rem;
     padding: 1rem;
     color: white;
@@ -505,10 +505,40 @@
   
   @media (max-width: 450px) {
     html {
-      font-size: 55%;
+      font-size: 45%;
+      
+      
     }
-  
+    .services{
+      background-color: white;
+    }
+
+    .home {
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+      url('/images/drone4.jpg') no-repeat;
+      
+    }
+    .contact .box-container .box1{
+      display: none;
+    }
+    .contact .box-container .box .form-group span {
+      font-size: 18px;
+    }
+    .contact .box-container .box .form-group p {
+      font-size: 18px;
+    }
+    .footer .copyright p{
+      font-size: 8px;
+    }
+    .home .secondtexthead{
+      font-size: large;
+      margin-left: 5rem;
+      
+    }
+   
     .home h1 {
       font-size: 4rem;
     }
   }
+
+ 
