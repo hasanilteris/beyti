@@ -513,6 +513,18 @@
       background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
       url('/images/robotarm1.jpg') no-repeat;
     }
+   
+    .about .box-container .box p{
+      width: 100%;
+      
+}
+
+.about .box-container {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1rem;
+}
+
     .services .box p{
       display: none;
     }
@@ -525,6 +537,7 @@
       url('/images/drone4.jpg') no-repeat;
       
     }
+    
     .contact .box-container .box1{
       display: none;
     }
