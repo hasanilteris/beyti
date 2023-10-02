@@ -509,6 +509,13 @@
       
       
     }
+    .contact{
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),
+      url('/images/robotarm1.jpg') no-repeat;
+    }
+    .services .box p{
+      display: none;
+    }
     .services{
       background-color: white;
     }
