@@ -110,7 +110,6 @@
   }
   .team .box-container .box{
     width: 70rem;
-    ;
     
   }
   
@@ -311,8 +310,143 @@
     html {
       font-size: 55%;
     }
-  
+    .footer .copyright p{
+      font-size: 8px;
+    }
+    .team{
+      background-color: white;
+    }
+    .team .box-container .box{
+      width: 40rem;
+      border-radius: 5px;
+    }
+    .team .box-container .box .info h3{
+      font-size: 16px;
+     
+    }
+    .team .box-container .box button{
+      margin-left: 5rem;
+      margin-top: -1rem;
+      height: 40px;
+
+    }
+    .team .box-container .box .buton img{
+      margin-left: 1rem;
+      
+    }
+   .box-container .box image{
+      width: 40rem;
+    }
+    .team .box-container .box .info p{
+      font-size: 12px;
+      
+    }
     .home h1 {
       font-size: 4rem;
+    }
+    .team .box-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      gap: 5rem;
+      
+    }
+  }
+  @media (max-width: 420px){
+    .team .box-container .box{
+      margin-left: 2rem;
+    }
+  }
+
+
+  @media (max-width: 380px){
+    html {
+      font-size: 55%;
+    }
+    .footer .copyright p{
+      font-size: 8px;
+    }
+    .team{
+      background-color: white;
+    }
+    .team .box-container .box{
+      width: 40rem;
+      border-radius: 5px;
+      margin-left: -1rem;
+    }
+    .team .box-container .box .info h3{
+      font-size: 16px;
+     
+    }
+    .team .box-container .box button{
+      margin-left: 5rem;
+      margin-top: -1rem;
+      height: 40px;
+
+    }
+    .team .box-container .box .buton img{
+      margin-left: 1rem;
+      
+    }
+   .box-container .box image{
+      width: 40rem;
+    }
+    .team .box-container .box .info p{
+      font-size: 12px;
+      
+    }
+    .home h1 {
+      font-size: 4rem;
+    }
+    .team .box-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      gap: 5rem;
+      
+    }
+  }
+  @media (max-width: 400px){
+    html {
+      font-size: 55%;
+    }
+    .footer .copyright p{
+      font-size: 8px;
+    }
+    .team{
+      background-color: white;
+    }
+    .team .box-container .box{
+      width: 40rem;
+      border-radius: 5px;
+      margin-left: -0.1rem;
+    }
+    .team .box-container .box .info h3{
+      font-size: 16px;
+     
+    }
+    .team .box-container .box button{
+      margin-left: 5rem;
+      margin-top: -1rem;
+      height: 40px;
+
+    }
+    .team .box-container .box .buton img{
+      margin-left: 1rem;
+      
+    }
+   .box-container .box image{
+      width: 40rem;
+    }
+    .team .box-container .box .info p{
+      font-size: 12px;
+      
+    }
+    .home h1 {
+      font-size: 4rem;
+    }
+    .team .box-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      gap: 5rem;
+      
     }
   }
