@@ -246,7 +246,16 @@
     html {
       font-size: 55%;
     }
-  
+     
+    .footer .copyright p{
+      font-size: 8px;
+    }
+    .contact{
+      width: 100%;
+    }
+    .maps iframe{
+      width: 100%;
+    }
     .home h1 {
       font-size: 4rem;
     }
