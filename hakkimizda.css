@@ -8,7 +8,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    
     transition: 0.2s linear;
   }
   :root {
@@ -115,7 +115,7 @@
   
   .about .box-container .box p {
     font-size: 1.4rem;
-    line-height: 2;
+    line-height: 1.5;
     margin-bottom: 1.5rem;
     letter-spacing: 0.1rem;
     color: black;
@@ -322,9 +322,45 @@ background: linear-gradient(90deg, rgba(20,33,61,1) 35%, rgba(255,126,0,1) 100%)
     html {
       font-size: 55%;
     }
-  
+    
+    .about .box-container .box img{
+      display: none;
+    }
+    .liste {
+      margin-top: -5rem;
+    }
+    .liste .box-container .box ul{
+      margin-left: 4rem;
+    }
+    .liste .box-container .box img{
+      display: none;
+    }
     .home h1 {
       font-size: 4rem;
+    }
+    .team{
+      background: #14213D;
+    }
+    .team .box-container .box{
+      margin-left: 3rem;
+    }
+    .footer .copyright p{
+      font-size: 8px;
+    }
+  }
+  @media (max-width: 420px) {
+    .team .box-container .box{
+      margin-left: 4rem;
+    }
+  }
+  @media (max-width: 380px) {
+    .team .box-container .box{
+      margin-left: 3rem;
+    }
+  }
+  @media (max-width: 365px) {
+    .team .box-container .box{
+      margin-left: 2rem;
     }
   }
 
