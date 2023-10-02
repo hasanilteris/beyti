@@ -322,6 +322,8 @@ background: linear-gradient(90deg, rgba(20,33,61,1) 35%, rgba(255,126,0,1) 100%)
     html {
       font-size: 55%;
     }
+      .about .box-container .box p{
+      font-size: 10px; }
     .liste .box-container .box .heading{
       margin-top: -18rem;
     }
