@@ -359,6 +359,11 @@
     flex-direction: column;
     margin-bottom: 1rem;
   }
+.contact .box-container .box1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
   .contact .box-container .box span{
     color: white;
     margin-top: 1rem;
